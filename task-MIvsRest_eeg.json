@@ -1,0 +1,33 @@
+{
+  "TaskName": "MIvsRest",
+  "TaskDescription": "Kinesthetic motor imagery (MI) of grasping with the dominant hand versus rest/idle. Five runs per subject: RUN0 is a real grasping movement used to introduce the protocol; RUN1-RUN4 are MI vs Rest only. EMG of the dominant hand was acquired for protocol control.",
+  "EEGReference": "Left Ear lobe",
+  "SamplingFrequency": 125,
+  "PowerLineFrequency": 50,
+  "RecordingType": "continuous",
+  "EEGChannelCount": 15,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MISCChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "EEGPlacementScheme": "10-20",
+  "EEGGround": "n/a",
+  "CapManufacturer": "n/a",
+  "CapManufacturersModelName": "n/a",
+  "Manufacturer": "n/a",
+  "ManufacturersModelName": "n/a",
+  "HardwareFilters": {
+    "Bandpass": {
+      "Type": "Butterworth",
+      "Order": 3,
+      "LowCutoff (Hz)": 0.5,
+      "HighCutoff (Hz)": 45
+    }
+  },
+  "SoftwareFilters": "n/a",
+  "SoftwareVersions": "n/a",
+  "InstitutionName": "PROMAB Lab. IMAL - CONICET. Santa Fe. Argentina.",
+  "InstitutionAddress": "n/a",
+  "InstitutionalDepartmentName": "n/a"
+}

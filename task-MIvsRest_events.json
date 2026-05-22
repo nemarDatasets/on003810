@@ -1,17 +1,20 @@
 {
     "onset": {
-        "Description": "Event onset",
-        "Units": "second"
+        "Description": "Event onset (relative to the start of the recording)",
+        "Units": "s"
     },
     "duration": {
         "Description": "Event duration",
-        "Units": "second"
+        "Units": "s"
+    },
+    "sample": {
+        "Description": "Onset of the event measured in samples (relative to the start of the recording)."
     },
     "value": {
         "Description": "Value of event (numerical)",
         "Levels": {
-            "7": "MI (in raw edf file as OVTK_GDF_Right)",
-            "9": "Rest (in raw edf file as OVTK_GDF_Tongue)"
+            "7": "MI trial (in raw EDF file as OVTK_GDF_Right)",
+            "9": "Rest trial (in raw EDF file as OVTK_GDF_Tongue)"
         }
     }
 }
