@@ -1,23 +1,74 @@
 {
   "version": "2.0",
-  "dataset_id": "on003810",
-  "source": "openneuro",
-  "source_id": "ds003810",
+  "pipeline_stage": "validated",
   "title": "Motor Imagery vs Rest - Low-Cost EEG System",
-  "authors": {
-    "Victoria Peterson": {},
-    "Catalina Maria Galvan": {},
-    "Hugo Sacha Hernadez": {},
-    "Ruben Spies": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Victoria Peterson": {
+      "orcid": "0000-0003-0825-1018"
+    },
+    "Catalina Maria Galvan": {},
+    "Hugo Sacha Hernadez": {},
+    "Ruben Spies": {
+      "orcid": "0000-0002-4957-9979"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003810.v2.0.2",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003810",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003810",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.heliyon.2020.e03425",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "72.6 MB (52 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".ipynb",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) signals acquired using a low-cost consumer-grade brain-computer interface system from 10 naive participants. The protocol involved kinesthetic motor imagery of grasping movements with the dominant hand and rest conditions across five runs, with electromyography recorded for validation. EEG signals were bandpass-filtered between 0.5 and 45 Hz, providing a resource for evaluating the feasibility of accessible BCI systems.",
+  "methods_description": "EEG signals were acquired using a low-cost consumer-grade device from 10 participants with no prior BCI experience. The protocol consisted of five runs: RUN0 involved real grasping movement for instruction, while RUN1-RUN4 consisted of motor imagery versus rest conditions. Electromyography of the dominant hand was recorded for protocol validation. EEG signals were filtered between 0.5 and 45 Hz using a 3rd order Butterworth bandpass filter.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "low-cost BCI"
+    },
+    {
+      "term": "consumer-grade EEG"
+    }
+  ],
+  "source_hash": "de22f14d0a2a4ab382467e0bbeaa8440d2d21a8bb7d6ee59368b324ec2958e53"
 }
