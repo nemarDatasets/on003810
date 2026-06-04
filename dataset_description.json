@@ -1,5 +1,6 @@
 {
   "Name": "Motor Imagery vs Rest - Low-Cost EEG System",
+  "DatasetType": "raw",
   "License": "CC0",
   "Authors": [
     "Victoria Peterson",
@@ -14,11 +15,11 @@
     "https://www.sciencedirect.com/science/article/pii/S240584402030270X"
   ],
   "DatasetDOI": "10.82901/nemar.on003810",
-  "BIDSVersion": "1.1.1",
+  "BIDSVersion": "1.11.1",
   "SourceDatasets": [
     {
       "DOI": "doi:10.18112/openneuro.ds003810.v2.0.2"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.2"
 }
