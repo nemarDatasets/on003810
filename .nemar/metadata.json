@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motor Imagery vs Rest - Low-Cost EEG System",
+  "description": "This dataset comprises electroencephalography (EEG) signals acquired from 10 naive participants using a low-cost consumer-grade EEG device during a motor imagery brain-computer interface protocol. Participants performed kinesthetic imagination of dominant-hand grasping movements and rest conditions across five protocol runs, with electromyography (EMG) recorded from the dominant hand for protocol validation. EEG signals were bandpass-filtered between 0.5 and 45 Hz using a 3rd-order Butterworth filter at a sampling rate of 125 Hz.",
+  "methods_description": "EEG data were acquired using a low-cost consumer-grade device from 10 participants with no prior BCI experience. The protocol consisted of five runs: RUN0 involved real grasping movement for instruction and familiarization, while RUN1-RUN4 consisted of motor imagery (kinesthetic imagination of dominant-hand grasping) versus rest conditions. EMG signals from the dominant hand were recorded for protocol control. EEG signals were filtered with a 3rd-order Butterworth bandpass filter (0.5-45 Hz) during acquisition. Sampling rate was 125 Hz with 15 EEG channels using the 10-20 electrode placement scheme.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,6 +16,26 @@
       "orcid": "0000-0002-4957-9979"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "kinesthetic imagination"
+    },
+    {
+      "term": "consumer-grade EEG"
+    },
+    {
+      "term": "low-cost BCI"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003810.v2.0.2",
@@ -36,10 +58,10 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "72.6 MB (52 files)"
   ],
@@ -51,24 +73,6 @@
     ".tsv",
     ".yml"
   ],
-  "description": "This dataset comprises electroencephalography (EEG) signals acquired using a low-cost consumer-grade brain-computer interface system from 10 naive participants. The protocol involved kinesthetic motor imagery of grasping movements with the dominant hand and rest conditions across five runs, with electromyography recorded for validation. EEG signals were bandpass-filtered between 0.5 and 45 Hz, providing a resource for evaluating the feasibility of accessible BCI systems.",
-  "methods_description": "EEG signals were acquired using a low-cost consumer-grade device from 10 participants with no prior BCI experience. The protocol consisted of five runs: RUN0 involved real grasping movement for instruction, while RUN1-RUN4 consisted of motor imagery versus rest conditions. Electromyography of the dominant hand was recorded for protocol validation. EEG signals were filtered between 0.5 and 45 Hz using a 3rd order Butterworth bandpass filter.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "low-cost BCI"
-    },
-    {
-      "term": "consumer-grade EEG"
-    }
-  ],
-  "source_hash": "de22f14d0a2a4ab382467e0bbeaa8440d2d21a8bb7d6ee59368b324ec2958e53"
+  "resource_type_general": "Dataset",
+  "source_hash": "8ab20e6638a71d141920c463c91a70ceaa5711a6bfd1e90f460b3adac5c01a2a"
 }
